@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from "./app-routing/app-routing.module";
 import { CoreModule } from "./core/core.module";
+import { Home2Component } from './home2/home2.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,     
+    HomeComponent,
+    Home2Component,     
   ],
   imports: [
     BrowserModule,
@@ -24,4 +26,4 @@ import { CoreModule } from "./core/core.module";
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { } 
