@@ -8,6 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from "./app-routing/app-routing.module";
 import { CoreModule } from "./core/core.module";
 import { Home2Component } from './home2/home2.component';
+import { TheBandComponent } from './the-band/the-band.component';
+import { EventsComponent } from './events/events.component';
+import { ContactComponent } from './contact/contact.component';
+import { PhotosComponent } from './photos/photos.component';
 
 
 
@@ -15,7 +19,11 @@ import { Home2Component } from './home2/home2.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    Home2Component,     
+    Home2Component,
+    TheBandComponent,
+    EventsComponent,
+    ContactComponent,
+    PhotosComponent,     
   ],
   imports: [
     BrowserModule,

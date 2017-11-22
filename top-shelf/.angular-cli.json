@@ -10,7 +10,8 @@
       "assets": [
         "assets",
         "assets/css",
-        "favicon.ico"
+        "favicon.ico",
+        "assets/js/grayscale.js"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -24,7 +25,9 @@
         "styles.scss"
       ],
       "scripts": [
-      	"../node_modules/jquery/dist/jquery.min.js"
+      	"../node_modules/jquery/dist/jquery.min.js",
+      	"assets/js/grayscale.js"
+      	
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
