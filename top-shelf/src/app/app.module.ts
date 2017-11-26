@@ -12,24 +12,29 @@ import { TheBandComponent } from './the-band/the-band.component';
 import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
 import { PhotosComponent } from './photos/photos.component';
+import { MusicComponent } from './music/music.component';
+import { FaqsComponent } from './faqs/faqs.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent,    
     HomeComponent,
     Home2Component,
     TheBandComponent,
     EventsComponent,
     ContactComponent,
-    PhotosComponent,     
+    PhotosComponent,
+    MusicComponent,
+    FaqsComponent,     
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     CoreModule,
     NgbModule.forRoot(),
-    AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

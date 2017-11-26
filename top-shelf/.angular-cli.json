@@ -21,12 +21,12 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [        
-      	"../node_modules/font-awesome/css/font-awesome.css",
+      	"../node_modules/font-awesome/css/font-awesome.css",      	
         "styles.scss"
       ],
       "scripts": [
       	"../node_modules/jquery/dist/jquery.min.js",
-      	"assets/js/grayscale.js"
+      	"../node_modules/startbootstrap-clean-blog/js/clean-blog.js"
       	
       ],
       "environmentSource": "environments/environment.ts",

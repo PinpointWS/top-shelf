@@ -7,16 +7,19 @@ import { EventsComponent } from "../events/events.component";
 import { ContactComponent } from "../contact/contact.component";
 import { TheBandComponent } from "../the-band/the-band.component";
 import { PhotosComponent } from "../photos/photos.component";
+import { MusicComponent } from "../music/music.component";
+import { FaqsComponent } from "../faqs/faqs.component";
+
 
 const appRoutes: Routes = [
            { path: 'home',   component: Home2Component  },
            { path: 'theband',   component: TheBandComponent  },
-           { path: 'events',   component: EventsComponent  },
+           { path: 'music',   component: MusicComponent  },
            { path: 'contacts',   component: ContactComponent  },
            { path: 'photos',   component: PhotosComponent  },
+           { path: 'faqs',   component: FaqsComponent  },
            { path: '',   component: Home2Component  },
            { path: '**', component: Home2Component }
-
          ];
 
 
