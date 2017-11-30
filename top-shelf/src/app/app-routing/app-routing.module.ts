@@ -18,6 +18,7 @@ const appRoutes: Routes = [
            { path: 'contacts',   component: ContactComponent  },
            { path: 'photos',   component: PhotosComponent  },
            { path: 'faqs',   component: FaqsComponent  },
+           { path: 'events',   component: EventsComponent  },
            { path: '',   component: Home2Component  },
            { path: '**', component: Home2Component }
          ];
