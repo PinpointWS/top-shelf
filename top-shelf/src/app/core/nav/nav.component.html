@@ -8,7 +8,7 @@
   	</button>
 	<div class="container">
   		<div class="collapse navbar-collapse" (click)="collapse=true" [ngbCollapse]="collapse">
-           <ul class="navbar-nav ml-auto">
+           <ul class="navbar-nav ml-auto" [style.background-color]="getStyle()">
           	<li class="nav-item">
               <a class="nav-link" routerLink="/home" routerLinkActive="active"> Home </a>
             </li>

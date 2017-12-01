@@ -12,4 +12,11 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
+  getStyle() {
+      if(this.collapse) {
+        return "#191516";
+      } else {
+        return "#191516";
+      }
+    }
 }
