@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PhotosComponent implements OnInit {
 
+    private imageName:string = "assets/img/band4.jpg";
   constructor() { }
 
   ngOnInit() {
+  }
+  
+  setImageName(imageName:string){
+      this.imageName = imageName;      
   }
 
 }
