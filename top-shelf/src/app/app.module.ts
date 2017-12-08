@@ -14,7 +14,8 @@ import { ContactComponent } from './contact/contact.component';
 import { PhotosComponent } from './photos/photos.component';
 import { MusicComponent } from './music/music.component';
 import { FaqsComponent } from './faqs/faqs.component';
-
+import { GalleryComponent } from './gallery/gallery.component';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 
 @NgModule({
@@ -27,13 +28,15 @@ import { FaqsComponent } from './faqs/faqs.component';
     ContactComponent,
     PhotosComponent,
     MusicComponent,
-    FaqsComponent,     
+    FaqsComponent,
+    GalleryComponent,     
   ],
   imports: [
     HttpClientModule,
     AppRoutingModule,
     BrowserModule,
     CoreModule,
+    NgxGalleryModule,
     NgbModule.forRoot(),
     
   ],
