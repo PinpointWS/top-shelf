@@ -9,6 +9,7 @@
 	<div class="container">
   		<div class="collapse navbar-collapse" (click)="collapse=true" [ngbCollapse]="collapse">
            <ul class="navbar-nav ml-auto" [style.background-color]="getStyle()">
+            <img src="assets/img/ts3-small.jpg" class="img-fluid" />
           	<li class="nav-item">
               <a class="nav-link" routerLink="/home" routerLinkActive="active"> Home </a>
             </li>
@@ -18,12 +19,12 @@
             <li class="nav-item">
               <a class="nav-link"  routerLink="./music" routerLinkActive="active"> Music </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item"> 
                <a class="nav-link"  routerLink="./photos" routerLinkActive="active"> Photos </a>
             </li>
             <li class="nav-item">
               <a class="nav-link"  routerLink="./contacts" routerLinkActive="active"> Contact </a>
-            </li>
+            </li>                        
           </ul>
         </div>
       </div>
