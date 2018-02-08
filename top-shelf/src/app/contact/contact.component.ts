@@ -30,14 +30,15 @@ constructor(private http: HttpClient) { }
               "subject":[{"value":"email from TopShelf Band Website"}],
               "message":[{"value":this.message}]
           }
-      console.log("Email ", params);
-      this.http.post('http://104.197.162.156/contact_message?_format=json', params).subscribe(data => {
-          this.emailSent = true;
-          console.log("Email success", data);
-      }, 
-      err => {
-          this.emailFailed = true;
-          console.log("Error occured", err);
-      });
-  }
+      
+      this.http.post('http://104.197.162.156/contact_message?_format=json', params).subscribe(
+          data => {
+              this.emailFailed = false;
+              this.emailSent = true;            
+          }, 
+          err => {
+              this.emailSent = false;  
+              this.emailFailed = true;              
+          });
+   }
 }
