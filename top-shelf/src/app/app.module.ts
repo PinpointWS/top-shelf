@@ -16,6 +16,7 @@ import { MusicComponent } from './music/music.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { NgxGalleryModule } from 'ngx-gallery';
+import { FormsModule } from "@angular/forms";
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { NgxGalleryModule } from 'ngx-gallery';
   imports: [
     HttpClientModule,
     AppRoutingModule,
+    FormsModule,
     BrowserModule,
     CoreModule,
     NgxGalleryModule,
